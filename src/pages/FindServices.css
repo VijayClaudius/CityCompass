@@ -1,0 +1,11 @@
+/* src/styles/FindServices.css */
+.find-services {
+  padding: 20px;
+  text-align: center;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
