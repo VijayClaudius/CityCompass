@@ -15,7 +15,7 @@ const FLogin = () => {
     let pwd = aUser.pswd;
     if (uname === "Admin" && pwd === "admin@123") {
       navigate("/admin_dashboard");
-    } else alert("Invalid Admin credentials, please check username / password");
+    } else alert("Invalid Admin credentials, please check the username / password");
   };
 
   return (
