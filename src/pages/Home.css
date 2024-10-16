@@ -1,0 +1,185 @@
+/* src/pages/Home.css */
+.home {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #333; /* Header color */
+  color: white;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.auth-button {
+  background-color: #ff583357; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #c0392b; /* Darker shade on hover */
+}
+
+.toggle-button {
+  margin-left: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d; /* Toggle button color */
+  color: white;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #5a6268; /* Darker shade on hover */
+}
+
+.body {
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.value-proposition {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.features {
+  margin: 40px 0;
+}
+
+.features-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.feature-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 20px; /* Gap between items */
+}
+.icon-link {
+  text-decoration: none;
+}
+.icon-item {
+  background-color: #ffffff; /* White background for icons */
+  text-decoration: none;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px; /* Fixed width for uniformity */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.icon-item:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.icon-item img {
+  width: 60px; /* Adjust icon size */
+  height: 60px; /* Adjust icon size */
+  margin-bottom: 10px;
+}
+
+.ratings {
+  margin: 40px 0;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.rating-star {
+  color: gold; /* Color for stars */
+  font-size: 24px; /* Size of stars */
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 7%; /* Ensure footer stays at the bottom */
+}
+
+.footer-content {
+  margin: 0 auto;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+/* Dark Theme Styles */
+.home.dark {
+  background-color: #121212; /* Dark background */
+  color: white;
+}
+
+.header.dark {
+  background-color: #1e1e1e; /* Darker header */
+}
+
+.footer.dark {
+  background-color: #1e1e1e; /* Darker footer */
+}
+
+.icon-item.dark {
+  background-color: #292929; /* Dark icon background */
+  border: 1px solid #444; /* Dark border */
+}
+
+.toggle-button.dark {
+  background-color: #4d4d4d; /* Dark toggle button */
+}
+
+.toggle-button.dark:hover {
+  background-color: #666; /* Darker shade on hover */
+}
